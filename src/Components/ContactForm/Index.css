@@ -1,0 +1,66 @@
+#formBox {
+    height: 35vh;
+    background-color:white;
+    width: 60%;
+    margin: 35px auto 20px auto;
+    border-radius: 20px;
+    font-family:arial, sans-serif;
+}
+.inputBoxes {
+    padding: 40px;
+}
+.input{
+    width: 40%;
+    margin: 10px 20px;
+    height: 30px;
+}
+.submitBtn {
+    margin-left: 80%;
+    font-family: arial, sans-serif;
+}
+#bookingList{
+    width:95%;
+    height: auto;
+    background-color: white;
+    border-radius: 20px;
+    margin: 35px auto 20px auto;
+}
+.headings{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(216, 215, 215);
+    border-radius: 15px;
+    padding-top: 10px;
+    margin:10px auto;
+}
+#bookingList ul li{
+            list-style: none;
+            font-family: arial, sans-serif;
+    
+}
+
+.myRent{
+    width:95%;
+    height: auto;
+    background-color: white;
+    border-radius: 20px;
+    margin: 35px auto 20px auto;
+}
+
+.myRent ul li{
+    
+            list-style: none;
+            font-family: arial, sans-serif;
+     
+}
+
+.allButtons{
+    background-color: #013f85;
+    font-family: arial, sans-serif;
+    border-radius:5px;
+    height: 30px;
+    width:120px;
+    color:white;
+    border: none;
+    align-items: left;
+}

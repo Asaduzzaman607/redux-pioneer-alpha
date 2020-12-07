@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useForm } from "react-hook-form";
+import "./Index.css";
 
 const Index = () => {
   const { register, handleSubmit, errors } = useForm();
@@ -23,17 +24,17 @@ const Index = () => {
                 })}
                 className="input"
                 type="text"
-                name="title"
-                placeholder="Title"
+                name="name"
+                placeholder="Name"
               />
               <input
                 ref={register({
                   required: "Name is required",
                 })}
                 className="input"
-                type="text"
-                name="price"
-                placeholder="Price"
+                type="email"
+                name="email"
+                placeholder="Enter your email"
               />{" "}
               <br />
               <input
@@ -51,19 +52,10 @@ const Index = () => {
                 })}
                 className="input"
                 type="text"
-                name="bedroom"
-                placeholder="No of bedroom"
+                name="message"
+                placeholder="Enter your message"
               />{" "}
               <br />
-              <input
-                ref={register({
-                  required: "Name is required",
-                })}
-                className="input"
-                type="text"
-                name="bathroom"
-                placeholder="No of bathroom"
-              />
               <input
                 ref={register({
                   required: "Name is required",
